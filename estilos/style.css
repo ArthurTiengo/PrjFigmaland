@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+}
+
+.navbar ul{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    min-height:10vw;
+    font-size: 15px;
+}
+
+.navbar a{
+    color: rgb(238, 238, 238);
+}
+.navbar a:hover{
+    color: #85c4ff;
+    transition: 0.3s;
+}
+.navbar ion-icon{
+    color: white;
+    font-size: 30px;
+}
+.twitter{
+    position: relative;
+    left: 60px;
+}
+.linkedin{
+    position: relative;
+    right: 100px;
+}
+.facebook{
+    position: relative;
+    right: 20px;
+}
+
+.text1{
+    position: relative;
+    left: 290px;
+}
+.text2{
+    position: relative;
+    left: 220px;
+}
+.text3{
+    position: relative;
+    left: 140px;
+}
+
+.text4{
+    position: relative;
+    left: 70px;
+}
+
+.navbar img{
+    position: relative;
+    right: 70px;
+}
+
+.menu{
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+    background-image: url(../_img/top-banner.jpg);
+}
+
+.menu-text{
+    margin-top: 10vw;
+    text-align: center;
+    color: white;
+}
+.menu-text h1{
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px; 
+    letter-spacing: 0.2px;
+}
+.menu-text p{
+    font-size: 24px;
+    font-style: normal;
+    line-height: 40px; 
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+}
+.menu-text button{
+    border-radius: 35px;
+    background: #2091F9;
+    padding: 16px;
+    width: 210px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    font-size:15px;
+}
+
+.menu-text button:hover{
+    background: #0080f859;
+    color: #fff;
+    border: 1px solid #2091F9;
+    transition: 0.5s;
+    cursor: pointer;
+}
